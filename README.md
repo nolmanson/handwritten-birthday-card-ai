@@ -8,6 +8,21 @@ Generates personalized, AI-crafted birthday wishes from your recent messages, tr
 - Email notifications when cards are ready.
 - Easy-to-configure and customizable.
 
+## File purposes
+main.py: Orchestrates all processes (retrieving recent messages, generating birthday wishes, converting text to handwriting, sending email notifications).
+
+generate_message.py: AI-driven script (e.g., using OpenAI's GPT models) to create personalized birthday wishes based on recent conversations.
+
+handwriting_conversion.py: Converts digital text to handwritten style using provided handwriting samples.
+
+recent_message_retrieval.py: Fetches recent messages from specified platforms or APIs (like SMS, email, WhatsApp, Messenger).
+
+email_notification.py: Sends email notifications to inform you when a card is ready.
+
+config.py: Stores API keys, email settings, or other sensitive configurations.
+
+birthday_list.csv: Contains name, birthday, contact info, and platform/source of recent messages.
+
 ## 📦 Installation
 
 Clone the repository:
